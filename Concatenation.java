@@ -9,5 +9,11 @@ public class Concatenation {
     int data_ano = 1800;
 
     System.out.print("Eu " + nome + ", morando em " + enderaco + ", confirmo que recebi o sálario de " + salario + ", na data " + (data_dia+"/"+data_mes+"/"+data_ano) );
+    
+    int num_1 = 10;
+    int num_2 = 20;
+    
+    System.out.print("\n\n" + (num_1 + num_2) );
+    System.out.print("\n\n" + ((double) num_1 / (double) num_2));
   } 
 }
