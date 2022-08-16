@@ -18,7 +18,7 @@ public class Loop {
     // do while
     do {
       System.out.print(y + "\n");
-      y++;
+      y++; 
     }while (y < 10);
     System.out.print("\n");
     
