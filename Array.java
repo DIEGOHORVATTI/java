@@ -7,7 +7,8 @@ public class Array {
     Random seed = new Random(new Date().getTime());
     
     int idades[] = new int[3];
-    
+    // int idades[] = {1, 2, 3};
+
     for (int i = 0; i < idades.length; i++) {
       idades[i] = seed.nextInt(20);
     }
@@ -16,6 +17,12 @@ public class Array {
     for (int i = 0; i < idades.length; i++) {
       System.out.print("'" + idades[i] + "' ");
     }
-    System.out.print("}");
+    System.out.print("}\n");
+
+    System.out.print("{ ");
+    for (int i:idades) {
+      System.out.print("'" + i + "' ");
+    }
+    System.out.print("}\n");
   }
 }
